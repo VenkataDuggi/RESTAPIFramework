@@ -37,8 +37,10 @@ public class BDDStyleGET {
 RestAssured.
 
         given().
-        baseUri("https://api.zippopotam.us/").
-        basePath("/IN/560037").
+       baseUri("https://api.zippopotam.us/").
+       basePath("/IN/560037").
+
+        //  baseUri("https://reqres.in/api/users/").
 
         when().log().all().
         get().
